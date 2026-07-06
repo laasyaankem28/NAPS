@@ -1,0 +1,6 @@
+station,deployed_order,adf_pvalue,adf_d,candidate_aics,lowest_aic_candidate,deployed_order_aic,ljungbox_stat,ljungbox_pvalue,ljungbox_lags,residual_verdict
+Swift Creek,"(1, 0, 1)",0.0076,0,"(0, 0, 1):1081.2; (1, 0, 0):-1251.0; (1, 0, 1):-1542.9","(1, 0, 1)",-1542.93,18.53,0.0467,10,residual autocorrelation remains
+Bunchgrass Meadow,"(1, 0, 1)",0.0,0,"(0, 0, 1):800.1; (1, 0, 0):-1955.8; (1, 0, 1):-2198.0","(1, 0, 1)",-2197.99,117.86,0.0,10,residual autocorrelation remains
+Touchet,"(1, 0, 1)",0.0806,1,"(0, 1, 1):-1184.4; (1, 1, 0):-1100.4; (1, 1, 1):-1190.1","(1, 1, 1)",-1190.12,16.15,0.0953,10,adequate (residuals ~ white noise)
+Paradise,"(1, 0, 1)",0.0244,0,"(0, 0, 1):2015.8; (1, 0, 0):-128.9; (1, 0, 1):-188.9","(1, 0, 1)",-188.88,17.55,0.063,10,adequate (residuals ~ white noise)
+Easy Pass,"(1, 0, 1)",0.0,0,"(0, 0, 1):2096.0; (1, 0, 0):802.6; (1, 0, 1):757.7","(1, 0, 1)",757.67,9.79,0.4592,10,adequate (residuals ~ white noise)

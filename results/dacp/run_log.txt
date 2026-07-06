@@ -1,0 +1,165 @@
+Logging this run to results/dacp\run_log.txt
+
+Loaded tuned ARIMA orders for 5 stations.
+
+========================================================
+  Swift Creek
+========================================================
+  ARIMA order (from arima.py): (1, 0, 1)
+
+  --- target 70% ---
+    DACP             cov=0.715  calErr=0.015  width=1.00  IS=3.35  PBIAS=-0.8%  NSE=0.804
+    single_aci       cov=0.710  calErr=0.010  width=0.94  IS=3.31  PBIAS=-0.4%  NSE=0.808
+    split_conformal  cov=0.787  calErr=0.087  width=1.36  IS=3.30  PBIAS=-0.4%  NSE=0.808
+
+  --- target 80% ---
+    DACP             cov=0.812  calErr=0.012  width=1.47  IS=4.28  PBIAS=-0.7%  NSE=0.816
+    single_aci       cov=0.807  calErr=0.007  width=1.38  IS=4.35  PBIAS=-0.4%  NSE=0.808
+    split_conformal  cov=0.843  calErr=0.043  width=1.78  IS=4.17  PBIAS=-0.4%  NSE=0.808
+
+  --- target 90% ---
+    DACP             cov=0.898  calErr=0.002  width=2.50  IS=6.42  PBIAS=+0.2%  NSE=0.803
+    single_aci       cov=0.897  calErr=0.003  width=2.56  IS=6.42  PBIAS=-0.4%  NSE=0.808
+    split_conformal  cov=0.911  calErr=0.011  width=2.89  IS=6.29  PBIAS=-0.4%  NSE=0.808
+
+  --- target 95% ---
+    DACP             cov=0.948  calErr=0.002  width=4.23  IS=10.36  PBIAS=+0.7%  NSE=0.781
+    single_aci       cov=0.946  calErr=0.004  width=4.40  IS=10.45  PBIAS=-0.4%  NSE=0.808
+    split_conformal  cov=0.946  calErr=0.004  width=5.14  IS=10.57  PBIAS=-0.4%  NSE=0.808
+    [t_adap check] n_cal ranged 40-48 (mean 40.3) -- t_adap is live
+  forecast figure (95%) -> plots/dacp\forecast_Swift_Creek_95.png
+
+========================================================
+  Bunchgrass Meadow
+========================================================
+  ARIMA order (from arima.py): (1, 0, 1)
+
+  --- target 70% ---
+    DACP             cov=0.706  calErr=0.006  width=164.40  IS=239.88  PBIAS=-0.4%  NSE=0.984
+    single_aci       cov=0.707  calErr=0.007  width=181.71  IS=256.57  PBIAS=-0.4%  NSE=0.984
+    split_conformal  cov=0.789  calErr=0.089  width=225.79  IS=278.37  PBIAS=-0.4%  NSE=0.984
+
+  --- target 80% ---
+    DACP             cov=0.804  calErr=0.004  width=229.39  IS=299.19  PBIAS=-0.4%  NSE=0.984
+    single_aci       cov=0.805  calErr=0.005  width=240.34  IS=311.33  PBIAS=-0.4%  NSE=0.984
+    split_conformal  cov=0.852  calErr=0.052  width=307.05  IS=359.01  PBIAS=-0.4%  NSE=0.984
+
+  --- target 90% ---
+    DACP             cov=0.902  calErr=0.002  width=362.34  IS=425.05  PBIAS=-0.4%  NSE=0.984
+    single_aci       cov=0.902  calErr=0.002  width=365.26  IS=427.67  PBIAS=-0.4%  NSE=0.984
+    split_conformal  cov=0.927  calErr=0.027  width=447.94  IS=496.48  PBIAS=-0.4%  NSE=0.984
+
+  --- target 95% ---
+    DACP             cov=0.950  calErr=0.000  width=505.53  IS=562.87  PBIAS=-0.4%  NSE=0.984
+    single_aci       cov=0.950  calErr=0.000  width=498.61  IS=558.60  PBIAS=-0.4%  NSE=0.984
+    split_conformal  cov=0.965  calErr=0.015  width=642.35  IS=695.38  PBIAS=-0.4%  NSE=0.984
+    [t_adap check] n_cal ranged 40-48 (mean 40.2) -- t_adap is live
+  forecast figure (95%) -> plots/dacp\forecast_Bunchgrass_Meadow_95.png
+
+========================================================
+  Touchet
+========================================================
+  ARIMA order (from arima.py): (1, 1, 1)
+
+  --- target 70% ---
+    DACP             cov=0.709  calErr=0.009  width=5.25  IS=30.70  PBIAS=+12.6%  NSE=-1.836
+    single_aci       cov=0.710  calErr=0.010  width=5.00  IS=30.98  PBIAS=+12.9%  NSE=-1.884
+    split_conformal  cov=0.762  calErr=0.062  width=6.58  IS=30.43  PBIAS=+12.9%  NSE=-1.884
+
+  --- target 80% ---
+    DACP             cov=0.802  calErr=0.002  width=8.24  IS=41.88  PBIAS=+12.6%  NSE=-1.831
+    single_aci       cov=0.805  calErr=0.005  width=8.00  IS=42.30  PBIAS=+12.9%  NSE=-1.884
+    split_conformal  cov=0.833  calErr=0.033  width=10.35  IS=42.14  PBIAS=+12.9%  NSE=-1.884
+
+  --- target 90% ---
+    DACP             cov=0.900  calErr=0.000  width=17.94  IS=64.98  PBIAS=+12.7%  NSE=-1.872
+    single_aci       cov=0.899  calErr=0.001  width=18.78  IS=62.53  PBIAS=+12.9%  NSE=-1.884
+    split_conformal  cov=0.909  calErr=0.009  width=21.26  IS=62.32  PBIAS=+12.9%  NSE=-1.884
+
+  --- target 95% ---
+    DACP             cov=0.950  calErr=0.000  width=35.38  IS=75.19  PBIAS=+13.0%  NSE=-1.830
+    single_aci       cov=0.949  calErr=0.001  width=38.36  IS=81.86  PBIAS=+12.9%  NSE=-1.884
+    split_conformal  cov=0.960  calErr=0.010  width=55.36  IS=86.32  PBIAS=+12.9%  NSE=-1.884
+    [t_adap check] n_cal ranged 40-48 (mean 40.2) -- t_adap is live
+  forecast figure (95%) -> plots/dacp\forecast_Touchet_95.png
+
+========================================================
+  Paradise
+========================================================
+  ARIMA order (from arima.py): (1, 0, 1)
+
+  --- target 70% ---
+    DACP             cov=0.718  calErr=0.018  width=2.12  IS=7.83  PBIAS=-2.5%  NSE=0.124
+    single_aci       cov=0.718  calErr=0.018  width=2.14  IS=7.83  PBIAS=-1.7%  NSE=0.059
+    split_conformal  cov=0.816  calErr=0.116  width=3.21  IS=7.69  PBIAS=-1.7%  NSE=0.059
+
+  --- target 80% ---
+    DACP             cov=0.809  calErr=0.009  width=2.82  IS=10.26  PBIAS=-2.1%  NSE=0.107
+    single_aci       cov=0.810  calErr=0.010  width=2.92  IS=10.25  PBIAS=-1.7%  NSE=0.059
+    split_conformal  cov=0.863  calErr=0.063  width=4.06  IS=9.95  PBIAS=-1.7%  NSE=0.059
+
+  --- target 90% ---
+    DACP             cov=0.898  calErr=0.002  width=6.65  IS=14.96  PBIAS=-2.4%  NSE=0.141
+    single_aci       cov=0.899  calErr=0.001  width=6.21  IS=15.34  PBIAS=-1.7%  NSE=0.059
+    split_conformal  cov=0.907  calErr=0.007  width=6.44  IS=14.81  PBIAS=-1.7%  NSE=0.059
+
+  --- target 95% ---
+    DACP             cov=0.941  calErr=0.009  width=12.91  IS=22.74  PBIAS=-2.5%  NSE=0.141
+    single_aci       cov=0.941  calErr=0.009  width=14.17  IS=23.62  PBIAS=-1.7%  NSE=0.059
+    split_conformal  cov=0.933  calErr=0.017  width=9.70  IS=21.31  PBIAS=-1.7%  NSE=0.059
+    [t_adap check] n_cal ranged 40-48 (mean 40.3) -- t_adap is live
+  forecast figure (95%) -> plots/dacp\forecast_Paradise_95.png
+
+========================================================
+  Easy Pass
+========================================================
+  ARIMA order (from arima.py): (1, 0, 1)
+
+  --- target 70% ---
+    DACP             cov=0.719  calErr=0.019  width=12.58  IS=32.43  PBIAS=-4.0%  NSE=0.243
+    single_aci       cov=0.720  calErr=0.020  width=12.01  IS=32.38  PBIAS=-4.5%  NSE=0.282
+    split_conformal  cov=0.789  calErr=0.089  width=15.48  IS=32.81  PBIAS=-4.5%  NSE=0.282
+
+  --- target 80% ---
+    DACP             cov=0.810  calErr=0.010  width=16.81  IS=41.39  PBIAS=-4.2%  NSE=0.245
+    single_aci       cov=0.810  calErr=0.010  width=16.63  IS=41.70  PBIAS=-4.5%  NSE=0.282
+    split_conformal  cov=0.841  calErr=0.041  width=20.03  IS=41.54  PBIAS=-4.5%  NSE=0.282
+
+  --- target 90% ---
+    DACP             cov=0.902  calErr=0.002  width=27.10  IS=61.03  PBIAS=-4.1%  NSE=0.247
+    single_aci       cov=0.900  calErr=0.000  width=26.97  IS=61.21  PBIAS=-4.5%  NSE=0.282
+    split_conformal  cov=0.904  calErr=0.004  width=31.68  IS=61.78  PBIAS=-4.5%  NSE=0.282
+
+  --- target 95% ---
+    DACP             cov=0.946  calErr=0.004  width=46.43  IS=89.51  PBIAS=-4.0%  NSE=0.240
+    single_aci       cov=0.946  calErr=0.004  width=46.26  IS=89.63  PBIAS=-4.5%  NSE=0.282
+    split_conformal  cov=0.943  calErr=0.007  width=47.93  IS=92.87  PBIAS=-4.5%  NSE=0.282
+    [t_adap check] n_cal ranged 40-48 (mean 40.2) -- t_adap is live
+  forecast figure (95%) -> plots/dacp\forecast_Easy_Pass_95.png
+
+Coverage table (70/80/90% targets) -> results/dacp\coverage_table_70_80_90.csv
+target                               70%    80%    90%
+station           method                              
+Bunchgrass Meadow DACP             0.706  0.804  0.902
+                  single_aci       0.707  0.805  0.902
+                  split_conformal  0.789  0.852  0.927
+Easy Pass         DACP             0.719  0.810  0.902
+                  single_aci       0.720  0.810  0.900
+                  split_conformal  0.789  0.841  0.904
+Paradise          DACP             0.718  0.809  0.898
+                  single_aci       0.718  0.810  0.899
+                  split_conformal  0.816  0.863  0.907
+Swift Creek       DACP             0.715  0.812  0.898
+                  single_aci       0.710  0.807  0.897
+                  split_conformal  0.787  0.843  0.911
+Touchet           DACP             0.709  0.802  0.900
+                  single_aci       0.710  0.805  0.899
+                  split_conformal  0.762  0.833  0.909
+
+========================================================
+Summary tables written to results/dacp/
+
+Generating calibration figure ...
+  calibration figure -> plots/dacp\calibration.pdf
+
+Done. Terminal output saved to results/dacp\run_log.txt
